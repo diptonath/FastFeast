@@ -1,21 +1,21 @@
 .header {
   height: 34vw;
-  margin: 30px auto;
-  background: url("../../assets/header_img.png") no-repeat;
-  background-size: contain;
+  background: url("../../assets/header_img.jpeg") no-repeat;
+  background-size: cover;
   position: relative;
+  border-radius: 10px;
 }
 
 .header-contents {
   position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   gap: 1.5vw;
-  max-width: 50%;
+  max-width: 100%;
   bottom: 10%;
   animation: fadeIn 3s;
-  left: 6vw;
+  left: 25%;
 }
 
 .header-contents h2 {
@@ -24,7 +24,13 @@
   font-size: max(4.5vw, 22px);
   overflow: hidden; /* Ensure the text doesn't overflow */
   white-space: nowrap; /* Prevent wrapping */
-  animation: scrolling 10s linear infinite; /* Apply scrolling animation */
+}
+.header-contents h4 {
+  font-weight: 400;
+  color: white;
+  font-size: max(1.5vw, 16px);
+  overflow: hidden; /* Ensure the text doesn't overflow */
+  white-space: nowrap; /* Prevent wrapping */
 }
 
 .header-contents p {
@@ -34,20 +40,21 @@
 
 .header-contents button {
   border: none;
-  color: rgb(253, 253, 253);
+  color: #313338;
   font-weight: 600;
   padding: 12px 24px;
-  background-image: linear-gradient(to right, #f59c78, #000000);
   border-radius: 30px;
   font-size: 16px;
   cursor: pointer;
+  background-color: rgb(255, 255, 255);
   transition: background-color 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .header-contents button:hover {
-  background-image: linear-gradient(to right, #000000, #ffffff);
+  background-color: tomato;
+  color: rgb(255, 255, 255);
 }
 
 .header-contents button:focus {

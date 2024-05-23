@@ -4,12 +4,16 @@
     gap: 20px;
 }
 .explore-menu h1 {
-    color: orangered;
+    color: tomato;
     font-weight: 500;
+    text-align: center;
+    font-family: Berkshire Swash;
+    margin-bottom: 10px;
 }
 .explore-menu-text {
     max-width: 60%;
-    columns: #808080;
+    columns: #313338;
+    text-align: center!important;
 }
 .explore-menu-list {
     display: flex;
@@ -23,7 +27,9 @@
 .explore-menu-list::-webkit-scrollbar {
     display: flex;
 }
-
+.sheader{
+    padding: 0px 180px;
+}
 .explore-menu-list-item img{
     width: 7.5vw;
     min-width: 80px;
@@ -33,8 +39,10 @@
 }
 .explore-menu-list p{
     margin-top: 10px;
-    color: #747474;
-    font-size: max(1.4vw, 16px);
+    color: #313338;
+    font-family:Berkshire Swash;
+    font-weight: 400;
+    font-size: max(1.4vw, 14px);
     cursor: pointer;
 }
 .explore-menu hr {

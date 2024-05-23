@@ -1,33 +1,25 @@
 .food-item {
   width: 100%;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 0px 0px 10px #00000015;
   transition: 0.3s;
   animation: fadeIn 1s;
+  text-align: center;
 }
 .food-item-image {
   width: 100%;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .food-item-info {
   padding: 20px;
 }
 
-.food-item-name-rating {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
 .food-item-name-rating p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
-}
-
-.food-item-name-rating img {
-  width: 70px;
+  margin-bottom: 10px;
 }
 
 .food-item-desc {
@@ -36,29 +28,16 @@
 }
 
 .food-item-price {
-  font-size: 1em; /* More moderate font size */
-  font-weight: 600; /* Bold but not too heavy */
-  color: #333; /* Professional dark grey color */
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.9
-  ); /* Subtle background for better readability */
-  padding: 4px 8px; /* Smaller padding */
-  border-radius: 4px; /* Soft rounded corners */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
-  text-align: center; /* Center the text horizontally */
-  transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for interactive effects */
+  font-family: Berkshire Swash;
+  font-size: 18px;
+  font-weight: 600;
+  color: tomato;
+  padding: 4px 8px;
   display: inline-block; /* Keep the element inline */
-  margin: 5px 0; /* Less margin for a tighter layout */
+  margin: 5px 5px; /* Less margin for a tighter layout */
   width: auto; /* Auto width based on content */
 }
 
-.food-item-price:hover {
-  transform: translateY(-2px); /* Subtle lift effect on hover */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover for a "lifting" effect */
-}
 
 @media (max-width: 768px) {
   .food-item-price {

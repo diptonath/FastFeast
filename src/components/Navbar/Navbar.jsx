@@ -21,13 +21,14 @@ const Navbar = () => {
           style={{
             color: "tomato",
             fontWeight: "bold",
-            fontSize: "24px",
+            fontSize: "42px",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.3)",
             letterSpacing: "1px",
-            textDecoration: "underline",
+            textDecoration: "none",
+
           }}
         >
-          Spice Cafe
+          FastFeast
         </h1>
       </Link>
       <ul className="navbar-menu">
@@ -39,9 +40,6 @@ const Navbar = () => {
         </a>
         <a href="#explore-menu" className="menu-item">
           Menu
-        </a>
-        <a href="#app-download" className="menu-item">
-          Mobile App
         </a>
         <a href="#footer" className="menu-item">
           Contact Us

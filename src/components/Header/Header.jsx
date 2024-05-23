@@ -12,14 +12,8 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-contents">
-        <h2 className="scrolling-text">
-          Sylhet Spice Cafe-এ বিকাশ পেমেন্ট করলেই 15% ডিসকাউন্ট!
-        </h2>
-        <p>
-          Discover our diverse Sylheti menu! Order easily, with flexible
-          delivery and pickup options By Food Panda, ensuring your meal arrives
-          just the way you like it.
-        </p>
+        <h2>Welcome to FastFeast</h2>
+        <h4>Delicious Fast Food, Delivered Fast</h4>
         <button onClick={handleViewMenuClick} style={{ cursor: "pointer" }}>
           View menu
         </button>

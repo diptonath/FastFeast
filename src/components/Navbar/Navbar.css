@@ -1,8 +1,11 @@
 .navbar {
-    padding: 10px;
+    padding: 30px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.navbar h1{
+  font-family: Berkshire Swash!important;
 }
 .navbar .logo {
     width: 150px;
@@ -10,9 +13,11 @@
 .navbar-menu {
     display: flex;
     list-style: none;
-    gap: 20px;
-    color: #49557e;
-    font-size: 18px;
+    gap: 30px;
+    color: #313338
+    ;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 .navbar-right {
     display: flex;
@@ -24,7 +29,7 @@
     font-size: 16px;
     color: #49557e;
     border: 1px solid tomato;
-    padding: 10px 30px;
+    padding:5px 20px;
     border-radius: 50px;
     cursor: pointer;
     transition: 2s;
