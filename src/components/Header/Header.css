@@ -1,0 +1,86 @@
+.header {
+  height: 34vw;
+  margin: 30px auto;
+  background: url("../../assets/header_img.png") no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.header-contents {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 50%;
+  bottom: 10%;
+  animation: fadeIn 3s;
+  left: 6vw;
+}
+
+.header-contents h2 {
+  font-weight: 500;
+  color: white;
+  font-size: max(4.5vw, 22px);
+  overflow: hidden; /* Ensure the text doesn't overflow */
+  white-space: nowrap; /* Prevent wrapping */
+  animation: scrolling 10s linear infinite; /* Apply scrolling animation */
+}
+
+.header-contents p {
+  color: white;
+  font-size: 1vw;
+}
+
+.header-contents button {
+  border: none;
+  color: rgb(253, 253, 253);
+  font-weight: 600;
+  padding: 12px 24px;
+  background-image: linear-gradient(to right, #f59c78, #000000);
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header-contents button:hover {
+  background-image: linear-gradient(to right, #000000, #ffffff);
+}
+
+.header-contents button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Scrolling animation */
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive CSS */
+@media (max-width: 1050px) {
+  .header-contents {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-contents {
+    max-width: 65%;
+  }
+
+  .header-contents p {
+    display: none;
+  }
+  .header-contents button {
+    padding: 2vw 4vw;
+  }
+}

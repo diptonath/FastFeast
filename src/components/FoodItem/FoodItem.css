@@ -1,0 +1,119 @@
+.food-item {
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #00000015;
+  transition: 0.3s;
+  animation: fadeIn 1s;
+}
+.food-item-image {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.food-item-info {
+  padding: 20px;
+}
+
+.food-item-name-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.food-item-name-rating p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.food-item-name-rating img {
+  width: 70px;
+}
+
+.food-item-desc {
+  color: #676767;
+  font-size: 12px;
+}
+
+.food-item-price {
+  font-size: 1em; /* More moderate font size */
+  font-weight: 600; /* Bold but not too heavy */
+  color: #333; /* Professional dark grey color */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Subtle background for better readability */
+  padding: 4px 8px; /* Smaller padding */
+  border-radius: 4px; /* Soft rounded corners */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+  text-align: center; /* Center the text horizontally */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for interactive effects */
+  display: inline-block; /* Keep the element inline */
+  margin: 5px 0; /* Less margin for a tighter layout */
+  width: auto; /* Auto width based on content */
+}
+
+.food-item-price:hover {
+  transform: translateY(-2px); /* Subtle lift effect on hover */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover for a "lifting" effect */
+}
+
+@media (max-width: 768px) {
+  .food-item-price {
+    font-size: 0.9em; /* Slightly smaller font size on smaller screens */
+  }
+}
+
+.food-item-img-container {
+  position: relative;
+}
+
+.food-item-img-container .add {
+  width: 35px;
+  height: 35px; /* Ensure it's perfectly circular if the image is square */
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #4caf50; /* A vibrant green background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for 3D effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions for hover effects */
+}
+
+.food-item-img-container .add:hover {
+  background-color: #45a049; /* A slightly darker green on hover */
+  transform: scale(1.1); /* Slightly increase size on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Deeper shadow for lifting effect */
+}
+
+.food-item-img-container .add:focus {
+  outline: none;
+  border: 2px solid #fff; /* Adding a white border when focused for accessibility */
+}
+
+.food-item-img-container .add img {
+  width: 70%; /* Adjust the size of the icon within the button */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.food-item-counter {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.food-item-counter img {
+  width: 30px;
+}
