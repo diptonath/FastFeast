@@ -6,6 +6,7 @@
   .food-display h3 {
     font-weight: 500;
     color: tomato;
+    text-align: center;
   }
   
   .food-display-list {

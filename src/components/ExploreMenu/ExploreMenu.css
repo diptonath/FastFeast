@@ -1,4 +1,5 @@
 .explore-menu {
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -39,10 +40,10 @@
 }
 .explore-menu-list p{
     margin-top: 10px;
-    color: #313338;
+    color: tomato;
     font-family:Berkshire Swash;
     font-weight: 400;
-    font-size: max(1.4vw, 14px);
+    font-size: 20px;
     cursor: pointer;
 }
 .explore-menu hr {
@@ -52,8 +53,8 @@
     border: none;
 }
 .explore-menu-list-item .active {
-    border: 4px solid orangered;
-    padding: 2px;
+    border: 4px solid tomato;
+    padding: 1px;
 }
 
 /* responsive css  */
@@ -62,6 +63,9 @@
     .explore-menu-text {
         max-width: 100%;
         font-size: 14px;
+    }
+    .sheader{
+        padding: 0px 0px;
     }
     
 }
