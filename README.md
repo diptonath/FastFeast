@@ -1,6 +1,6 @@
 # An Website For Resturent called FastFeast
 
-# GROUP MEMBERS INFO:
+## GROUP MEMBERS INFO:
 
 	1'st group member Name :   Tushar Sinha
 	1'st group member ID No : 221-134-005
