@@ -51,7 +51,7 @@ const Navbar = () => {
         </button>
         {isAuthenticated ? (
           <div className="user-info">
-            <img src={user.picture} alt={user.name} className="user-avatar" />
+            {/* <img  alt={user.name} className="user-avatar" /> */}
             <span className="user-name">{user.name}</span>
             <Link to="/profile" className="profile-link"></Link>
             <button

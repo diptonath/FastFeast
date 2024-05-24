@@ -1,16 +1,17 @@
-.contact-us-container {
+.contact-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  font-family: 'Poppins', sans-serif;
   color: #333;
 }
 
-.contact-us-container h1 {
+.contact-container h1 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.contact-us-container p {
+.contact-container p {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -56,4 +57,10 @@ button {
 
 button:hover {
   background-color: #e5533d;
+}
+
+.success-message {
+  text-align: center;
+  color: green;
+  font-weight: bold;
 }
