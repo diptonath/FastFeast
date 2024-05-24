@@ -1,5 +1,8 @@
 # An Website For Resturent called FastFeast
 
+![alt text](https://github.com/diptonath/FastFeast/blob/main/src/assets/Front-Image.jpeg?raw=true)
+
+
 ## GROUP MEMBERS INFO:
 
 	1'st group member Name :  Tushar Sinha
