@@ -25,3 +25,4 @@ This is a food delivery web application built using React. It allows users to br
 - View and edit the cart contents.
 - Place orders and track delivery status.
 - User authentication and profile management (if applicable).
+
