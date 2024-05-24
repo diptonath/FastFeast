@@ -2,10 +2,10 @@
 
 ## GROUP MEMBERS INFO:
 
-	1'st group member Name :   Tushar Sinha
+	1'st group member Name :  Tushar Sinha
 	1'st group member ID No : 221-134-005
 	
-	2'nd group member Name :   Dipto Deb Nath
+	2'nd group member Name :  Dipto Deb Nath
 	2'nd group member ID No : 221-134-013
 
 ## Live Demo
