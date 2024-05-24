@@ -35,13 +35,13 @@ const Navbar = () => {
         <Link to="/" className="menu-item">
           Home
         </Link>
-        <a href="#about" className="menu-item">
+        <a href="/about" className="menu-item">
           About
         </a>
         <a href="#explore-menu" className="menu-item">
           Menu
         </a>
-        <a href="#footer" className="menu-item">
+        <a href="/contact" className="menu-item">
           Contact Us
         </a>
       </ul>

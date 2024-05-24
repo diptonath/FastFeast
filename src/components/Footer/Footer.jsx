@@ -37,18 +37,18 @@ const Footer = () => {
         <div className="footer-content-center">
           <h2>Quick Links</h2>
           <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Delivery</li>
-            <li>Privacy Policy</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about"> About Us</a></li>
+            <li><a href="/PrivacyPolicy">Delivery</a></li>
+            <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
           </ul>
         </div>
         <div className="footer-content-right">
           <h2>Contact Us</h2>
           <ul>
-            <li>Call: +8801729364608</li>
-            <li>Call: +8801729364608</li>
-            <li>Email: info@fastfeast.com</li>
+            <li><a href="tel:+8801729364608">Call: +8801729364608</a></li>
+            <li><a href="tel:+8801729364608">Call: +8801729364608</a></li>
+            <li><a href="mailto:diptonath70@gmail.com">Email: info@fastfeast.com</a></li>
             <li>Address: Shibgonj,Sylhet</li>
           </ul>
         </div>
